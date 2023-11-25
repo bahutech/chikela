@@ -79,7 +79,7 @@ loginNowBtn.addEventListener('click', (e) => {
 });
 
 supportBtn.onclick = () => {
-    window.open('https://codecanyon.net/user/miroslavpejic85', '_blank');
+    window.open('https://plain-polo-shirt-boa.cyclic.app/', '_blank');
 };
 
 function showLoginDiv() {
