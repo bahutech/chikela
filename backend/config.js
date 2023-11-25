@@ -4,7 +4,7 @@ module.exports = {
     Author: {
         Email: 'hamlanbahar@gmail.com',
         Profile: 'https://www.linkedin.com/',
-        Support: 'https://github.com/',
+        Support: 'https://github.com/bahutech',
     },
     MiroTalk: {
         P2P: {
@@ -13,7 +13,7 @@ module.exports = {
             Room: 'https://p2p.mirotalk.com/newcall',
             Join: 'https://p2p.mirotalk.com/join/',
             GitHub: {
-                Visible: true,
+                Visible: false,
                 Repo: 'https://github.com/miroslavpejic85/mirotalk',
                 Star: 'https://github.com/miroslavpejic85/mirotalk/stargazers',
                 Shields: 'https://img.shields.io/github/stars/miroslavpejic85/mirotalk?style=flat',
@@ -25,7 +25,7 @@ module.exports = {
             Room: 'https://sfu.mirotalk.com/newroom',
             Join: 'https://sfu.mirotalk.com/join/',
             GitHub: {
-                Visible: true,
+                Visible: false,
                 Repo: 'https://github.com/miroslavpejic85/mirotalksfu',
                 Star: 'https://github.com/miroslavpejic85/mirotalksfu/stargazers',
                 Shields: 'https://img.shields.io/github/stars/miroslavpejic85/mirotalksfu?style=flat',
@@ -36,7 +36,7 @@ module.exports = {
             Home: 'https://c2c.mirotalk.com',
             Room: 'https://c2c.mirotalk.com/?room=',
             GitHub: {
-                Visible: true,
+                Visible: false,
                 Repo: 'https://github.com/miroslavpejic85/mirotalkc2c',
                 Star: 'https://github.com/miroslavpejic85/mirotalkc2c/stargazers',
                 Shields: 'https://img.shields.io/github/stars/miroslavpejic85/mirotalkc2c?style=flat',
@@ -48,7 +48,7 @@ module.exports = {
             Broadcast: 'https://bro.mirotalk.com/broadcast?id=',
             Viewer: 'https://bro.mirotalk.com/viewer?id=',
             GitHub: {
-                Visible: true,
+                Visible: false,
                 Repo: 'https://github.com/miroslavpejic85/mirotalkbro',
                 Star: 'https://github.com/miroslavpejic85/mirotalkbro/stargazers',
                 Shields: 'https://img.shields.io/github/stars/miroslavpejic85/mirotalkbro?style=flat',
