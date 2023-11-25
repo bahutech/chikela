@@ -8,12 +8,12 @@ module.exports = {
     },
     MiroTalk: {
         P2P: {
-            Visible: true,
+            Visible: false,
             Home: 'https://p2p.mirotalk.com',
             Room: 'https://p2p.mirotalk.com/newcall',
             Join: 'https://p2p.mirotalk.com/join/',
             GitHub: {
-                Visible: true,
+                Visible: false,
                 Repo: 'https://github.com/bahutech',
                 Star: 'https://github.com/bahutech',
                 Shields: 'https://github.com/bahutecht',
@@ -32,23 +32,23 @@ module.exports = {
             },
         },
         C2C: {
-            Visible: true,
+            Visible: false,
             Home: 'https://c2c.mirotalk.com',
             Room: 'https://c2c.mirotalk.com/?room=',
             GitHub: {
-                 Visible: true,
+                 Visible: false,
                 Repo: 'https://github.com/bahutech',
                 Star: 'https://github.com/bahutech',
                 Shields: 'https://github.com/bahutecht',
             },
         },
         BRO: {
-            Visible: true,
+            Visible: false,
             Home: 'https://bro.mirotalk.com',
             Broadcast: 'https://bro.mirotalk.com/broadcast?id=',
             Viewer: 'https://bro.mirotalk.com/viewer?id=',
             GitHub: {
-                 Visible: true,
+                 Visible: false,
                 Repo: 'https://github.com/bahutech',
                 Star: 'https://github.com/bahutech',
                 Shields: 'https://github.com/bahutecht',
