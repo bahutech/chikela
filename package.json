@@ -6,7 +6,6 @@
     "scripts": {
         "start": "node backend/server.js",
         "start-dev": "nodemon backend/server.js",
-		"build": "netlify deploy --prod",
         "env": "cp .env.template .env",
         "cfg": "cp backend/config.template.js backend/config.js",
         "mongo:up": "docker-compose -f docker-compose-mongo.yml up -d",
