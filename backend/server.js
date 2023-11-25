@@ -4,6 +4,8 @@ require('dotenv').config();
 
 const mongoose = require('mongoose');
 const express = require('express');
+const router = express.Router();
+const serverless = require('serverless-http');//netlify
 const auth = require('./middleware/auth');
 const cors = require('cors');
 const compression = require('compression');
@@ -86,7 +88,8 @@ mongoose
         app.use('*', (req, res) => {
             res.status(404).json({ message: 'Page not found' });
         });
-
+		router.get("/hello", (req, res) => res.send("Hello World!"));
+		app.use('/app/', router);
         app.listen(SERVER_PORT, null, () => {
             if (ngrok.enabled()) {
                 ngrok.start();
@@ -98,6 +101,7 @@ mongoose
                 });
             }
         });
+		module.exports.handler = serverless(app);
     })
     .catch((err) => console.error('Mongoose init connection error: ' + err));
 
